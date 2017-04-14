@@ -1,0 +1,476 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta content="telephone=no" name="format-detection" />
+  <title>Launch Notification - Teempla</title>
+ </head>
+ <body style="color: #000000; font-family: 'Open Sans', Gill Sans, Arial, Helvetica, sans-serif; font-size: 15px; line-height: 1.6; margin: 0; mso-margin-bottom-alt: 0px; mso-margin-top-alt: 0px; mso-padding-alt: 0px 0px 0px 0px; padding: 0; width: 100% !important;">
+ <style type="text/css">
+ #outlook a {padding:0;} 
+.ExternalClass {width:100%;}
+.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;}
+table td {border-collapse: collapse;}
+a{text-decoration:none !important;}
+
+@media screen {
+  @font-face {
+    font-family: 'Open Sans'; font-style: normal; font-weight: 400; src: local('Open Sans'), local('OpenSans'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+  }
+  @font-face {
+    font-family: 'Open Sans'; font-style: normal; font-weight: 600; src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/MTP_ySUJH_bn48VBG8sNSoraN7vELC11_xip9Rz-hMs.woff) format('woff');
+  }
+  @font-face {
+    font-family: 'Open Sans'; font-style: normal; font-weight: 700; src: local('Open Sans Bold'), local('OpenSans-Bold'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/k3k702ZOKiLJc3WVjuplzHhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+  }
+}
+@media only screen and (max-device-width: 480px) {
+  a[href^="tel"] {
+    text-decoration: none; color: black; pointer-events: none; cursor: default;
+  }
+  a[href^="sms"] {
+    text-decoration: none; color: black; pointer-events: none; cursor: default;
+  }
+  .mobile_link a[href^="tel"] {
+    text-decoration: default; color: orange !important; pointer-events: auto; cursor: default;
+  }
+  .mobile_link a[href^="sms"] {
+    text-decoration: default; color: orange !important; pointer-events: auto; cursor: default;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  a[href^="tel"] {
+    text-decoration: none; color: blue; pointer-events: none; cursor: default;
+  }
+  a[href^="sms"] {
+    text-decoration: none; color: blue; pointer-events: none; cursor: default;
+  }
+  .mobile_link a[href^="tel"] {
+    text-decoration: default; color: orange !important; pointer-events: auto; cursor: default;
+  }
+  .mobile_link a[href^="sms"] {
+    text-decoration: default; color: orange !important; pointer-events: auto; cursor: default;
+  }
+}
+</style>
+  <table bgcolor="#e9eef6" border="0" cellpadding="0" cellspacing="0" id="backgroundTable" style="border-collapse: collapse; line-height: 100% !important; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0; width: 100% !important;">
+   <tr>
+    <td align="center" style="border-collapse: collapse;" valign="top">
+     <table border="0" cellpadding="0" cellspacing="0" class="container" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; text-align: left;" width="740">
+      <tr>
+       <td align="center" class="sep" height="25" style="border-collapse: collapse; font-family: 'Open Sans', Gill Sans, Arial, Helvetica, sans-serif; font-size: 0px; line-height: 0px; mso-line-height-rule: exactly;" valign="top">&nbsp;</td>
+      </tr>
+      <tr>
+       <td style="border-collapse: collapse;" valign="top">
+        <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+         <tr>
+          <td style="border-collapse: collapse;" width="2">
+          </td>
+          <td style="border-collapse: collapse;"><a href="#" style="color: #3396d8 !important; text-decoration: none;"> <img alt="Teempla" class="image_fix" height="31" src="images/logo-i.png" style="border: none; display: block; outline: none; text-decoration: none;" title="Teempla" width="116" /> </a></td>
+          <td align="right" class="cant" style="border-collapse: collapse; color: #768292; font-family: 'Open Sans', Gill Sans, Arial, Helvetica, sans-serif; font-size: 10px; text-align: right;">If you can&#146;t read this email, please <a href="#" style="color: #3396d8 !important; text-decoration: none;" target="_blank"><span style="color: #3396d8;">click here.</span></a></td>
+         </tr>
+         <tr>
+          <td align="center" class="sep" colspan="3" height="21" style="border-collapse: collapse; font-family: 'Open Sans', Gill Sans, Arial, Helvetica, sans-serif; font-size: 0px; line-height: 0px; mso-line-height-rule: exactly;" valign="top">&nbsp;</td>
+         </tr>
+        </table>
+        <table bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" class="white-content" style="background: #ffffff; border-collapse: collapse; box-shadow: 0 1px 1px 0 #c3cbd7; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+         <tr>
+          <td align="center" class="sep" colspan="3" height="61" style="border-collapse: collapse; font-family: 'Open Sans', Gill Sans, Arial, Helvetica, sans-serif; font-size: 0px; line-height: 0px; mso-line-height-rule: exactly;" valign="top">&nbsp;</td>
+         </tr>
+         <tr>
+          <td style="border-collapse: collapse;" width="8%">
+          </td>
+          <td align="center" style="border-collapse: collapse;" valign="top">
+           <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+            <tr>
+             <td align="center" style="border-collapse: collapse;">
+              <div class="main-title" style="color: #000000; font-family: 'Open Sans', Gill Sans, Arial, Helvetica, sans-serif; font-size: 24px; line-height: 31px;">Dear Username,</div>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="sep" height="12" style="border-collapse: collapse; font-family: 'Open Sans', Gill Sans, Arial, Helvetica, sans-serif; font-size: 0px; line-height: 0px; mso-line-height-rule: exactly;">&nbsp;</td>
+            </tr>
+            <tr>
+             <td align="center" style="border-collapse: collapse;">
+              <div class="greeting-text" style="color: #000; font-family: 'Open Sans', Gill Sans, Arial, Helvetica, sans-serif; font-size: 15px; letter-spacing: -0.012em; line-height: 24px;">Thank you very much for using Teempla to share Floor-plans and Design Documents with your colleagues and industry partners. We would like to share an exciting announcement with you. On October 15th 2014, Teempla launched a <a href="#" style="color: #3396d8 !important; text-decoration: none;" target="_blank"><span style="color: #3396d8;">New Version 3.0</span></a> of our flagship platform to further empower you to effortlessly collaborate with your colleagues &amp; industry partners and execute complex projects within budget and on-time.</div>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="sep" height="68" style="border-collapse: collapse; font-family: 'Open Sans', Gill Sans, Arial, Helvetica, sans-serif; font-size: 0px; line-height: 0px; mso-line-height-rule: exactly;">&nbsp;</td>
+            </tr>
+            <tr>
+             <td align="center" style="border-collapse: collapse;" valign="top"><a class="btn-blue sh" href="#" style="background: #3396d8; border-radius: 5px; color: #fbfaf9 !important; display: inline-block; font-family: 'Open Sans', Gill Sans, Arial, Helvetica, sans-serif; font-size: 19px; font-weight: bold; line-height: 50px; min-width: 184px; padding: 0 22px; text-align: center; text-decoration: none;" target="_blank"><span style="color: #fbfaf9 !important;">Go to Teempla</span></a></td>
+            </tr>
+            <tr>
+             <td align="center" class="sep" height="73" style="border-collapse: collapse; font-family: 'Open Sans', Gill Sans, Arial, Helvetica, sans-serif; font-size: 0px; line-height: 0px; mso-line-height-rule: exactly;">&nbsp;</td>
+            </tr>
+            <tr>
+             <td align="center" style="border-collapse: collapse;">
+              <div class="main-title" style="color: #000000; font-family: 'Open Sans', Gill Sans, Arial, Helvetica, sans-serif; font-size: 24px; line-height: 31px;">Some of the key capabilities introduced with the <br />New Version 3.0 of Teempla are:</div>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="sep" height="41" style="border-collapse: collapse; font-family: 'Open Sans', Gill Sans, Arial, Helvetica, sans-serif; font-size: 0px; line-height: 0px; mso-line-height-rule: exactly;">&nbsp;</td>
+            </tr>
+            <tr>
+             <td align="center" style="border-collapse: collapse;">
+              <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+               <tr>
+                <td style="border-collapse: collapse;" valign="top">
+                 <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+                  <tr>
+                   <td align="center" class="sep" height="7" style="border-collapse: collapse; font-family: 'Open Sans', Gill Sans, Arial, Helvetica, sans-serif; font-size: 0px; line-height: 0px; mso-line-height-rule: exactly;">&nbsp;</td>
+                  </tr>
+                  <tr>
+                   <td style="border-collapse: collapse;"><img alt="Projects Dashboard" class="image_fix" height="222" src="images/capability1.jpg" style="display: block; outline: none; text-decoration: none;" title="Projects Dashboard" width="310" /></td>
+                  </tr>
+                 </table>
+                </td>
+                <td style="border-collapse: collapse;" valign="top">
+                 <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+                  <tr>
+                   <td style="border-collapse: collapse;" width="19">
+                   </td>
+                   <td class="capability-title" style="border-collapse: collapse; color: #000000; font-family: 'Open Sans', Gill Sans, Arial, Helvetica, sans-serif; font-size: 15px; font-weight: bold; line-height: 1.6;" valign="top">Projects Dashboard</td>
+                  </tr>
+                  <tr>
+                   <td align="center" class="sep" colspan="2" height="6" style="border-collapse: collapse; font-family: 'Open Sans', Gill Sans, Arial, Helvetica, sans-serif; font-size: 0px; line-height: 0px; mso-line-height-rule: exactly;">&nbsp;</td>
+                  </tr>
+                  <tr>
+                   <td style="border-collapse: collapse;">
+                   </td>
+                   <td class="capability-descr" style="border-collapse: collapse; color: #000; font-family: 'Open Sans', Gill Sans, Arial, Helvetica, sans-serif; font-size: 15px; letter-spacing: -0.01em; line-height: 24px;" valign="top">Provides a comprehensive overview of all your active projects and tasks within it. It highlights 3 Critical Actions and 3 Critical Tasks assigned to you and overall status of the project. Clicking on a Project Tile reveals all Actions, Tasks, Team Members, and Conversations concerning the project.</td>
+                  </tr>
+                  <tr>
+                   <td align="center" class="sep" colspan="2" height="5" style="border-collapse: collapse; font-family: 'Open Sans', Gill Sans, Arial, Helvetica, sans-serif; font-size: 0px; line-height: 0px; mso-line-height-rule: exactly;">&nbsp;</td>
+                  </tr>
+                  <tr>
+                   <td style="border-collapse: collapse;">
+                   </td>
+                   <td class="more" style="border-collapse: collapse; font-family: 'Open Sans', Gill Sans, Arial, Helvetica, sans-serif; font-size: 13px; line-height: 1.6;" valign="top"><a href="#" style="color: #3396d8 !important; text-decoration: none;" target="_blank"><span style="color: #3396d8;">More on Quick Tutorial</span></a></td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="sep" height="69" style="border-collapse: collapse; font-family: 'Open Sans', Gill Sans, Arial, Helvetica, sans-serif; font-size: 0px; line-height: 0px; mso-line-height-rule: exactly;">&nbsp;</td>
+            </tr>
+            <tr>
+             <td align="center" class="grey-sep" height="1" style="background: #cad1db; border-collapse: collapse; font-family: 'Open Sans', Gill Sans, Arial, Helvetica, sans-serif; font-size: 0px; line-height: 0px; mso-line-height-rule: exactly;">&nbsp;</td>
+            </tr>
+            <tr>
+             <td align="center" class="sep" height="53" style="border-collapse: collapse; font-family: 'Open Sans', Gill Sans, Arial, Helvetica, sans-serif; font-size: 0px; line-height: 0px; mso-line-height-rule: exactly;">&nbsp;</td>
+            </tr>
+            <tr>
+             <td align="center" style="border-collapse: collapse;">
+              <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+               <tr>
+                <td style="border-collapse: collapse;" valign="top">
+                 <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+                  <tr>
+                   <td class="capability-title" style="border-collapse: collapse; color: #000000; font-family: 'Open Sans', Gill Sans, Arial, Helvetica, sans-serif; font-size: 15px; font-weight: bold; line-height: 1.6;" valign="top">Dynamic Viewer</td>
+                   <td style="border-collapse: collapse;" width="19">
+                   </td>
+                  </tr>
+                  <tr>
+                   <td align="center" class="sep" colspan="2" height="6" style="border-collapse: collapse; font-family: 'Open Sans', Gill Sans, Arial, Helvetica, sans-serif; font-size: 0px; line-height: 0px; mso-line-height-rule: exactly;">&nbsp;</td>
+                  </tr>
+                  <tr>
+                   <td class="capability-descr" style="border-collapse: collapse; color: #000; font-family: 'Open Sans', Gill Sans, Arial, Helvetica, sans-serif; font-size: 15px; letter-spacing: -0.01em; line-height: 24px;" valign="top">A high-performance Viewer to quickly download large and complex Design Files on mobile TouchPads and Laptops. Teempla&#146;s Dynamic Viewer contains powerful tools for real-time collaboration &#150; Freehand Drawing, Sketching, and Type-<br />writing. It also includes tools for adding Sticky Notes, Pictures, and Documents at any point on the Floor-plan.</td>
+                   <td style="border-collapse: collapse;">
+                   </td>
+                  </tr>
+                  <tr>
+                   <td align="center" class="sep" colspan="2" height="5" style="border-collapse: collapse; font-family: 'Open Sans', Gill Sans, Arial, Helvetica, sans-serif; font-size: 0px; line-height: 0px; mso-line-height-rule: exactly;">&nbsp;</td>
+                  </tr>
+                  <tr>
+                   <td class="more" style="border-collapse: collapse; font-family: 'Open Sans', Gill Sans, Arial, Helvetica, sans-serif; font-size: 13px; line-height: 1.6;" valign="top"><a href="#" style="color: #3396d8 !important; text-decoration: none;" target="_blank"><span style="color: #3396d8;">More on Quick Tutorial</span></a></td>
+                   <td style="border-collapse: collapse;">
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+                <td style="border-collapse: collapse;" valign="top">
+                 <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+                  <tr>
+                   <td align="center" class="sep" height="7" style="border-collapse: collapse; font-family: 'Open Sans', Gill Sans, Arial, Helvetica, sans-serif; font-size: 0px; line-height: 0px; mso-line-height-rule: exactly;">&nbsp;</td>
+                  </tr>
+                  <tr>
+                   <td style="border-collapse: collapse;"><img alt="Dynamic Viewer" class="image_fix" height="222" src="images/capability2.jpg" style="display: block; outline: none; text-decoration: none;" title="Dynamic Viewer" width="310" /></td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="sep" height="56" style="border-collapse: collapse; font-family: 'Open Sans', Gill Sans, Arial, Helvetica, sans-serif; font-size: 0px; line-height: 0px; mso-line-height-rule: exactly;">&nbsp;</td>
+            </tr>
+            <tr>
+             <td align="center" class="grey-sep" height="1" style="background: #cad1db; border-collapse: collapse; font-family: 'Open Sans', Gill Sans, Arial, Helvetica, sans-serif; font-size: 0px; line-height: 0px; mso-line-height-rule: exactly;">&nbsp;</td>
+            </tr>
+            <tr>
+             <td align="center" class="sep" height="53" style="border-collapse: collapse; font-family: 'Open Sans', Gill Sans, Arial, Helvetica, sans-serif; font-size: 0px; line-height: 0px; mso-line-height-rule: exactly;">&nbsp;</td>
+            </tr>
+            <tr>
+             <td align="center" style="border-collapse: collapse;">
+              <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+               <tr>
+                <td style="border-collapse: collapse;" valign="top">
+                 <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+                  <tr>
+                   <td align="center" class="sep" height="7" style="border-collapse: collapse; font-family: 'Open Sans', Gill Sans, Arial, Helvetica, sans-serif; font-size: 0px; line-height: 0px; mso-line-height-rule: exactly;">&nbsp;</td>
+                  </tr>
+                  <tr>
+                   <td style="border-collapse: collapse;"><img alt="Projects Dashboard" class="image_fix" height="222" src="images/capability3.jpg" style="display: block; outline: none; text-decoration: none;" title="Projects Dashboard" width="310" /></td>
+                  </tr>
+                 </table>
+                </td>
+                <td style="border-collapse: collapse;" valign="top">
+                 <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+                  <tr>
+                   <td style="border-collapse: collapse;" width="19">
+                   </td>
+                   <td class="capability-title" style="border-collapse: collapse; color: #000000; font-family: 'Open Sans', Gill Sans, Arial, Helvetica, sans-serif; font-size: 15px; font-weight: bold; line-height: 1.6;" valign="top">Live News Feed</td>
+                  </tr>
+                  <tr>
+                   <td align="center" class="sep" colspan="2" height="6" style="border-collapse: collapse; font-family: 'Open Sans', Gill Sans, Arial, Helvetica, sans-serif; font-size: 0px; line-height: 0px; mso-line-height-rule: exactly;">&nbsp;</td>
+                  </tr>
+                  <tr>
+                   <td style="border-collapse: collapse;">
+                   </td>
+                   <td class="capability-descr" style="border-collapse: collapse; color: #000; font-family: 'Open Sans', Gill Sans, Arial, Helvetica, sans-serif; font-size: 15px; letter-spacing: -0.01em; line-height: 24px;" valign="top">Running News Feed from all project team members as they suggest changes, modify design files, and complete tasks. Forge trustworthy teams with Live Interactive Communications and instantaneously learn about project bottlenecks <br />and status.</td>
+                  </tr>
+                  <tr>
+                   <td align="center" class="sep" colspan="2" height="5" style="border-collapse: collapse; font-family: 'Open Sans', Gill Sans, Arial, Helvetica, sans-serif; font-size: 0px; line-height: 0px; mso-line-height-rule: exactly;">&nbsp;</td>
+                  </tr>
+                  <tr>
+                   <td style="border-collapse: collapse;">
+                   </td>
+                   <td class="more" style="border-collapse: collapse; font-family: 'Open Sans', Gill Sans, Arial, Helvetica, sans-serif; font-size: 13px; line-height: 1.6;" valign="top"><a href="#" style="color: #3396d8 !important; text-decoration: none;" target="_blank"><span style="color: #3396d8;">More on Quick Tutorial</span></a></td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="sep" height="72" style="border-collapse: collapse; font-family: 'Open Sans', Gill Sans, Arial, Helvetica, sans-serif; font-size: 0px; line-height: 0px; mso-line-height-rule: exactly;">&nbsp;</td>
+            </tr>
+            <tr>
+             <td align="center" class="grey-sep" height="1" style="background: #cad1db; border-collapse: collapse; font-family: 'Open Sans', Gill Sans, Arial, Helvetica, sans-serif; font-size: 0px; line-height: 0px; mso-line-height-rule: exactly;">&nbsp;</td>
+            </tr>
+            <tr>
+             <td align="center" class="sep" height="55" style="border-collapse: collapse; font-family: 'Open Sans', Gill Sans, Arial, Helvetica, sans-serif; font-size: 0px; line-height: 0px; mso-line-height-rule: exactly;">&nbsp;</td>
+            </tr>
+            <tr>
+             <td align="center" style="border-collapse: collapse;">
+              <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+               <tr>
+                <td style="border-collapse: collapse;" valign="top">
+                 <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+                  <tr>
+                   <td class="capability-title" style="border-collapse: collapse; color: #000000; font-family: 'Open Sans', Gill Sans, Arial, Helvetica, sans-serif; font-size: 15px; font-weight: bold; line-height: 1.6;" valign="top">Instantaneous Approvals</td>
+                   <td style="border-collapse: collapse;" width="10">
+                   </td>
+                  </tr>
+                  <tr>
+                   <td align="center" class="sep" colspan="2" height="6" style="border-collapse: collapse; font-family: 'Open Sans', Gill Sans, Arial, Helvetica, sans-serif; font-size: 0px; line-height: 0px; mso-line-height-rule: exactly;">&nbsp;</td>
+                  </tr>
+                  <tr>
+                   <td class="capability-descr" style="border-collapse: collapse; color: #000; font-family: 'Open Sans', Gill Sans, Arial, Helvetica, sans-serif; font-size: 15px; letter-spacing: -0.01em; line-height: 24px;" valign="top">Quickly review and approve design changes and workarounds for timely execution of projects. You may also request review and approval of design changes suggested by you from specific stakeholders.</td>
+                   <td style="border-collapse: collapse;">
+                   </td>
+                  </tr>
+                  <tr>
+                   <td align="center" class="sep" colspan="2" height="5" style="border-collapse: collapse; font-family: 'Open Sans', Gill Sans, Arial, Helvetica, sans-serif; font-size: 0px; line-height: 0px; mso-line-height-rule: exactly;">&nbsp;</td>
+                  </tr>
+                  <tr>
+                   <td class="more" style="border-collapse: collapse; font-family: 'Open Sans', Gill Sans, Arial, Helvetica, sans-serif; font-size: 13px; line-height: 1.6;" valign="top"><a href="#" style="color: #3396d8 !important; text-decoration: none;" target="_blank"><span style="color: #3396d8;">More on Quick Tutorial</span></a></td>
+                   <td style="border-collapse: collapse;">
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+                <td style="border-collapse: collapse;" valign="top">
+                 <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+                  <tr>
+                   <td align="center" class="sep" height="7" style="border-collapse: collapse; font-family: 'Open Sans', Gill Sans, Arial, Helvetica, sans-serif; font-size: 0px; line-height: 0px; mso-line-height-rule: exactly;">&nbsp;</td>
+                  </tr>
+                  <tr>
+                   <td style="border-collapse: collapse;"><img alt="Dynamic Viewer" class="image_fix" height="222" src="images/capability4.jpg" style="display: block; outline: none; text-decoration: none;" title="Dynamic Viewer" width="310" /></td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="sep" height="64" style="border-collapse: collapse; font-family: 'Open Sans', Gill Sans, Arial, Helvetica, sans-serif; font-size: 0px; line-height: 0px; mso-line-height-rule: exactly;">&nbsp;</td>
+            </tr>
+            <tr>
+             <td align="center" class="grey-sep" height="1" style="background: #cad1db; border-collapse: collapse; font-family: 'Open Sans', Gill Sans, Arial, Helvetica, sans-serif; font-size: 0px; line-height: 0px; mso-line-height-rule: exactly;">&nbsp;</td>
+            </tr>
+            <tr>
+             <td align="center" class="sep" height="60" style="border-collapse: collapse; font-family: 'Open Sans', Gill Sans, Arial, Helvetica, sans-serif; font-size: 0px; line-height: 0px; mso-line-height-rule: exactly;">&nbsp;</td>
+            </tr>
+            <tr>
+             <td align="center" style="border-collapse: collapse;">
+              <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+               <tr>
+                <td style="border-collapse: collapse;" valign="top">
+                 <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+                  <tr>
+                   <td align="center" class="sep" height="7" style="border-collapse: collapse; font-family: 'Open Sans', Gill Sans, Arial, Helvetica, sans-serif; font-size: 0px; line-height: 0px; mso-line-height-rule: exactly;">&nbsp;</td>
+                  </tr>
+                  <tr>
+                   <td style="border-collapse: collapse;"><img alt="Projects Dashboard" class="image_fix" height="222" src="images/capability5.jpg" style="display: block; outline: none; text-decoration: none;" title="Projects Dashboard" width="310" /></td>
+                  </tr>
+                 </table>
+                </td>
+                <td style="border-collapse: collapse;" valign="top">
+                 <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+                  <tr>
+                   <td style="border-collapse: collapse;" width="19">
+                   </td>
+                   <td class="capability-title" style="border-collapse: collapse; color: #000000; font-family: 'Open Sans', Gill Sans, Arial, Helvetica, sans-serif; font-size: 15px; font-weight: bold; line-height: 1.6;" valign="top">Trusted Security</td>
+                  </tr>
+                  <tr>
+                   <td align="center" class="sep" colspan="2" height="6" style="border-collapse: collapse; font-family: 'Open Sans', Gill Sans, Arial, Helvetica, sans-serif; font-size: 0px; line-height: 0px; mso-line-height-rule: exactly;">&nbsp;</td>
+                  </tr>
+                  <tr>
+                   <td style="border-collapse: collapse;">
+                   </td>
+                   <td class="capability-descr" style="border-collapse: collapse; color: #000; font-family: 'Open Sans', Gill Sans, Arial, Helvetica, sans-serif; font-size: 15px; letter-spacing: -0.01em; line-height: 24px;" valign="top">Teempla encrypts Design Files in your premises using the strongest-level SSL security protocol before transmission. Teempla&#146;s client-side encryption technology ensures that only you and your team members have visibility to your Design Files.</td>
+                  </tr>
+                  <tr>
+                   <td align="center" class="sep" colspan="2" height="5" style="border-collapse: collapse; font-family: 'Open Sans', Gill Sans, Arial, Helvetica, sans-serif; font-size: 0px; line-height: 0px; mso-line-height-rule: exactly;">&nbsp;</td>
+                  </tr>
+                  <tr>
+                   <td style="border-collapse: collapse;">
+                   </td>
+                   <td class="more" style="border-collapse: collapse; font-family: 'Open Sans', Gill Sans, Arial, Helvetica, sans-serif; font-size: 13px; line-height: 1.6;" valign="top"><a href="#" style="color: #3396d8 !important; text-decoration: none;" target="_blank"><span style="color: #3396d8;">More on Quick Tutorial</span></a></td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="sep" height="75" style="border-collapse: collapse; font-family: 'Open Sans', Gill Sans, Arial, Helvetica, sans-serif; font-size: 0px; line-height: 0px; mso-line-height-rule: exactly;">&nbsp;</td>
+            </tr>
+            <tr>
+             <td align="center" class="grey-sep" height="1" style="background: #cad1db; border-collapse: collapse; font-family: 'Open Sans', Gill Sans, Arial, Helvetica, sans-serif; font-size: 0px; line-height: 0px; mso-line-height-rule: exactly;">&nbsp;</td>
+            </tr>
+            <tr>
+             <td align="center" class="sep" height="75" style="border-collapse: collapse; font-family: 'Open Sans', Gill Sans, Arial, Helvetica, sans-serif; font-size: 0px; line-height: 0px; mso-line-height-rule: exactly;">&nbsp;</td>
+            </tr>
+            <tr>
+             <td align="center" style="border-collapse: collapse;"><a class="btn-blue" href="#" style="background: #3396d8; border-radius: 5px; color: #fbfaf9 !important; display: inline-block; font-family: 'Open Sans', Gill Sans, Arial, Helvetica, sans-serif; font-size: 19px; font-weight: bold; line-height: 50px; min-width: 184px; padding: 0 22px; text-align: center; text-decoration: none;" target="_blank"><span style="color: #fbfaf9 !important;">Experience Teempla&#146;s features</span></a></td>
+            </tr>
+            <tr>
+             <td align="center" class="sep" height="67" style="border-collapse: collapse; font-family: 'Open Sans', Gill Sans, Arial, Helvetica, sans-serif; font-size: 0px; line-height: 0px; mso-line-height-rule: exactly;">&nbsp;</td>
+            </tr>
+            <tr>
+             <td align="center" style="border-collapse: collapse;">
+              <div class="greeting-text" style="color: #000; font-family: 'Open Sans', Gill Sans, Arial, Helvetica, sans-serif; font-size: 15px; letter-spacing: -0.012em; line-height: 24px;">We invite you to experience Teempla&#146;s powerful set of features through an easy-to-navigate <a href="#" style="color: #3396d8 !important; text-decoration: none;" target="_blank"><span style="color: #3396d8;">Quick Tutorial.</span></a> We hope that Teempla&#146;s powerful set of new features significantly enhance your team&#146;s productivity and empower you to seamlessly collaborate with partners across the world and complete projects within budget and on-time.</div>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="sep" height="24" style="border-collapse: collapse; font-family: 'Open Sans', Gill Sans, Arial, Helvetica, sans-serif; font-size: 0px; line-height: 0px; mso-line-height-rule: exactly;">&nbsp;</td>
+            </tr>
+            <tr>
+             <td align="center" style="border-collapse: collapse;">
+              <div class="greeting-text" style="color: #000; font-family: 'Open Sans', Gill Sans, Arial, Helvetica, sans-serif; font-size: 15px; letter-spacing: -0.012em; line-height: 24px;">Thanks again for Selecting Teempla!</div>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="sep" height="70" style="border-collapse: collapse; font-family: 'Open Sans', Gill Sans, Arial, Helvetica, sans-serif; font-size: 0px; line-height: 0px; mso-line-height-rule: exactly;">&nbsp;</td>
+            </tr>
+           </table>
+          </td>
+          <td style="border-collapse: collapse;" width="8%">
+          </td>
+         </tr>
+        </table>
+        <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+         <tr>
+          <td align="center" style="border-collapse: collapse;" valign="top">
+           <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+            <tr>
+             <td align="center" class="sep" colspan="3" height="25" style="border-collapse: collapse; font-family: 'Open Sans', Gill Sans, Arial, Helvetica, sans-serif; font-size: 0px; line-height: 0px; mso-line-height-rule: exactly;" valign="top">&nbsp;</td>
+            </tr>
+            <tr>
+             <td style="border-collapse: collapse;" width="7.5%">
+             </td>
+             <td align="center" class="team" style="border-collapse: collapse; color: #6a7682; font-family: 'Open Sans', Gill Sans, Arial, Helvetica, sans-serif; font-size: 14px; line-height: 1.6; text-align: center;">Teempla team</td>
+             <td style="border-collapse: collapse;" width="7.5%">
+             </td>
+            </tr>
+            <tr>
+             <td style="border-collapse: collapse;">
+             </td>
+             <td a;ign="center" class="conf" style="border-collapse: collapse; color: #6a7682; font-family: 'Open Sans', Gill Sans, Arial, Helvetica, sans-serif; font-size: 10px; line-height: 1.6; text-align: center;">You can configure notifications on <a href="#" style="color: #3396d8 !important; text-decoration: none;" target="_blank"><span style="color: #3396d8;">My Account</span></a></td>
+             <td style="border-collapse: collapse;">
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="sep" colspan="3" height="18" style="border-collapse: collapse; font-family: 'Open Sans', Gill Sans, Arial, Helvetica, sans-serif; font-size: 0px; line-height: 0px; mso-line-height-rule: exactly;" valign="top">&nbsp;</td>
+            </tr>
+            <tr>
+             <td style="border-collapse: collapse;">
+             </td>
+             <td align="center" style="border-collapse: collapse;" valign="top">
+              <table border="0" cellpadding="10" cellspacing="0" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+               <tr>
+                <td align="center" style="border-collapse: collapse;" valign="middle"><a href="#" style="color: #3396d8 !important; text-decoration: none;" target="_blank"> <img alt="" border="0" class="image_fix" height="14" src="images/icon_fb.png" style="border: none; display: block; outline: none; text-decoration: none;" title="" width="7" /> </a></td>
+                <td align="center" style="border-collapse: collapse;" valign="middle"><a href="#" style="color: #3396d8 !important; text-decoration: none;" target="_blank"> <img alt="" border="0" class="image_fix" height="10" src="images/icon_tw.png" style="border: none; display: block; outline: none; text-decoration: none;" title="" width="12" /> </a></td>
+                <td align="center" style="border-collapse: collapse;" valign="middle"><a href="#" style="color: #3396d8 !important; text-decoration: none;" target="_blank"> <img alt="" border="0" class="image_fix" height="13" src="images/icon_gp.png" style="border: none; display: block; outline: none; text-decoration: none;" title="" width="13" /> </a></td>
+                <td align="center" style="border-collapse: collapse;" valign="middle"><a href="#" style="color: #3396d8 !important; text-decoration: none;" target="_blank"> <img alt="" border="0" class="image_fix" height="14" src="images/icon_yt.png" style="border: none; display: block; outline: none; text-decoration: none;" title="" width="18" /> </a></td>
+                <td align="center" style="border-collapse: collapse;" valign="middle"><a href="#" style="color: #3396d8 !important; text-decoration: none;" target="_blank"> <img alt="" border="0" class="image_fix" height="12" src="images/icon_ar.png" style="border: none; display: block; outline: none; text-decoration: none;" title="" width="14" /> </a></td>
+               </tr>
+              </table>
+             </td>
+             <td style="border-collapse: collapse;">
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="sep" colspan="3" height="21" style="border-collapse: collapse; font-family: 'Open Sans', Gill Sans, Arial, Helvetica, sans-serif; font-size: 0px; line-height: 0px; mso-line-height-rule: exactly;" valign="top">&nbsp;</td>
+            </tr>
+            <tr>
+             <td style="border-collapse: collapse;">
+             </td>
+             <td align="center" class="f-menu" style="border-collapse: collapse; color: #768292; font-family: 'Open Sans', Gill Sans, Arial, Helvetica, sans-serif; font-size: 10px; line-height: 1.6; text-align: center;" valign="top"><a href="#" style="color: #3396d8 !important; text-decoration: none;" target="_blank"><span style="color: #3396d8;">Terms</span></a> &nbsp;|&nbsp; <a href="#" style="color: #3396d8 !important; text-decoration: none;" target="_blank"><span style="color: #3396d8;">Privacy</span></a></td>
+             <td style="border-collapse: collapse;">
+             </td>
+            </tr>
+            <tr>
+             <td style="border-collapse: collapse;">
+             </td>
+             <td align="center" class="copyright" style="border-collapse: collapse; color: #768292; font-family: 'Open Sans', Gill Sans, Arial, Helvetica, sans-serif; font-size: 10px; line-height: 1.6; text-align: center;" valign="top"> &copy; 2014 Cloudar Corporation, NV All rights reserved <br />All trademarks are property of their respective owners in the US and other countries </td>
+             <td style="border-collapse: collapse;">
+             </td>
+            </tr>
+           </table>
+          </td>
+         </tr>
+        </table>
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="sep" colspan="3" height="70" style="border-collapse: collapse; font-family: 'Open Sans', Gill Sans, Arial, Helvetica, sans-serif; font-size: 0px; line-height: 0px; mso-line-height-rule: exactly;" valign="top">&nbsp;</td>
+      </tr>
+     </table>
+    </td>
+   </tr>
+  </table>
+ </body>
+</html>
